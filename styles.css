@@ -11,21 +11,23 @@ body {
 }
 
 
+ 
   /*testo 1 */
-  .esplora-i-parchi-naturali {
+  .esplora-i-parchi-d-italia,
+.esplora-i-parchi-d-italia * {
   box-sizing: border-box;
 }
-.esplora-i-parchi-naturali {
-  color: #000000;
+.esplora-i-parchi-d-italia {
+  color: var(--color-black, #000000);
   text-align: left;
-  bottom: -90px;
-  font-family: 'Poppins-Regular', sans-serif;
+  font-family: "Poppins-Medium", sans-serif;
   font-size: 100px;
-  line-height: 96%;
-  font-weight: 0;
+  line-height: 108%;
+  letter-spacing: -0.06em;
+  font-weight: 500;
   position: relative;
-  top: 100px;
-  left: 60px;
+ top: 80px;
+ left: 60px;
 }
 
  /*testo 2*/
