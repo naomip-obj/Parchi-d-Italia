@@ -6,17 +6,6 @@ body {
     background-color: #ffff; /* Colore di sfondo chiaro */
   }
  
-  body {
-    min-height: 980vh; /* scroll pagina */
-}
-
-
-
-body {
-    overflow: hidden;
-  }
-
-
 
 /*footer */
 .footer,
