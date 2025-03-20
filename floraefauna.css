@@ -30,12 +30,12 @@ body {
 }
 
  /*testo 2*/
-.i-parchi-naturali-italiani-sono-un-tesoro-di-ecosistemi-ricchi-paesaggi-mozzafiato-e-unici-legami-tra-uomo-e-ambiente-scopri-flora-fauna-e-le-storie-che-rendono-speciale-ogni-angolo-protetto-del-nostro-paese,
-.i-parchi-naturali-italiani-sono-un-tesoro-di-ecosistemi-ricchi-paesaggi-mozzafiato-e-unici-legami-tra-uomo-e-ambiente-scopri-flora-fauna-e-le-storie-che-rendono-speciale-ogni-angolo-protetto-del-nostro-paese
-  * {
+.descrizione-iniziale,
+.descrizione-iniziale * {
   box-sizing: border-box;
 }
-.i-parchi-naturali-italiani-sono-un-tesoro-di-ecosistemi-ricchi-paesaggi-mozzafiato-e-unici-legami-tra-uomo-e-ambiente-scopri-flora-fauna-e-le-storie-che-rendono-speciale-ogni-angolo-protetto-del-nostro-paese {
+
+.descrizione-iniziale {
   color: var(--color-black, #000000);
   text-align: left;
   font-family: "Poppins-Regular", sans-serif;

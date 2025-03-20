@@ -612,8 +612,7 @@ top: 380px;
     top: 1015px;
     width: 514px;
 }
-
-.nonostante-l-aspetto-aspro-del-territorio-il-parco-dell-etna-ospita-una-sorprendente-biodiversit-la-fauna-composta-da-numerose-specie-adattatesi-alle-condizioni-uniche-del-vulcano-tra-gli-animali-pi-comuni-ci-sono-le-volpi-i-conigli-selvatici-e-i-ricci-il-parco-anche-un-luogo-privilegiato-per-l-osservazione-degli-uccelli-con-specie-come-il-falco-pellegrino-l-allocco-e-l-aquila-del-bonelli-la-lucertola-campestre-e-altri-piccoli-rettili-completano-il-panorama-faunistico {
+.biodiversita {
     color: #000000;
     text-align: left;
     font-family: 'Poppins-Regular', sans-serif;
@@ -662,7 +661,7 @@ top: 380px;
     inset: 0;
 }
 
-.un-patrimonio-storico-e-culturale {
+.un-patrimonio {
     color: #000000;
     text-align: left;
     font-family: 'Poppins-SemiBold', sans-serif;
@@ -675,7 +674,7 @@ top: 380px;
     width: 514px;
 }
 
-.oltre-alla-sua-straordinaria-bellezza-naturale-il-parco-dell-etna-profondamente-radicato-nella-cultura-siciliana-i-borghi-che-circondano-il-vulcano-come-nicolosi-zafferana-etnea-e-linguaglossa-sono-ricchi-di-storia-e-tradizioni-qui-si-possono-scoprire-antiche-chiese-monasteri-e-musei-che-raccontano-la-lunga-relazione-tra-l-uomo-e-il-vulcano-feste-popolari-come-la-sagra-del-miele-di-zafferana-celebrano-i-prodotti-tipici-e-il-legame-indissolubile-tra-la-comunit-locale-e-il-territorio {
+.pino-loricato {
     color: #000000;
     text-align: left;
     font-family: 'Poppins-Regular', sans-serif;
@@ -703,7 +702,7 @@ top: 380px;
     position: static;
 }
 
-.paesaggi-vulcanici-e-contrasti-naturali {
+.paesaggi {
     color: #000000;
     text-align: left;
     font-family: 'Poppins-SemiBold', sans-serif;
@@ -716,7 +715,7 @@ top: 380px;
     width: 514px;
 }
 
-.il-parco-dell-etna-un-museo-a-cielo-aperto-di-paesaggi-vulcanici-il-vulcano-con-i-suoi-oltre-3-300-metri-di-altezza-domina-l-intera-sicilia-orientale-la-sua-attivit-vulcanica-ha-creato-un-territorio-unico-caratterizzato-da-crateri-fumanti-colate-laviche-nere-e-deserti-di-lava-crateri-iconici-come-il-cratere-centrale-e-i-crateri-silvestri-situati-sul-versante-sud-sono-tra-le-mete-pi-visitate-offrendo-un-panorama-mozzafiato-e-la-possibilit-di-camminare-su-terreni-modellati-dalle-eruzioni-pi-recenti-la-variet-di-altitudini-del-parco-d-vita-a-contrasti-naturali-straordinari-alla-base-del-vulcano-il-paesaggio-dominato-da-agrumeti-vigneti-e-uliveti-che-prosperano-grazie-alla-fertilit-del-terreno-vulcanico-salendo-verso-i-1-800-metri-si-incontrano-boschi-rigogliosi-di-querce-castagni-e-pini-nelle-aree-subalpine-la-vegetazione-si-dirada-lasciando-spazio-alla-ginestra-dell-etna-una-pianta-resistente-che-colonizza-i-campi-di-lava-oltre-i-2-900-metri-il-paesaggio-si-trasforma-in-un-deserto-vulcanico-un-ambiente-surreale-dominato-da-rocce-scure-e-crateri {
+.montagne-parcoPollino {
     color: #000000;
     text-align: left;
     font-family: 'Poppins-Regular', sans-serif;
@@ -799,7 +798,7 @@ top: 380px;
     top: 789px;
 }
 
-.il-parco-dell-etna-una-destinazione-perfetta-per-chi-ama-la-natura-e-l-avventura-una-delle-esperienze-pi-popolari-l-escursione-verso-i-crateri-sommitali-questi-percorsi-condotti-da-guide-esperte-offrono-un-opportunit-unica-per-osservare-da-vicino-le-fumarole-attive-le-colate-laviche-e-i-paesaggi-lunari-i-sentieri-escursionistici-adatti-a-diversi-livelli-di-difficolt-si-estendono-lungo-tutte-le-fasce-altitudinali-del-parco-tra-i-pi-suggestivi-c-quello-che-porta-alla-valle-del-bove-una-vasta-depressione-vulcanica-che-racconta-la-storia-delle-eruzioni-passate-le-grotte-vulcaniche-sono-un-altra-attrazione-imperdibile-del-parco-formatesi-dal-raffreddamento-della-lava-queste-grotte-rappresentano-un-mondo-nascosto-e-affascinante-la-grotta-del-gelo-famosa-per-contenere-ghiaccio-perenne-e-la-grotta-dei-lamponi-con-le-sue-spettacolari-formazioni-sono-due-delle-pi-visitate-in-inverno-l-etna-diventa-una-stazione-sciistica-dove-possibile-sciare-con-una-vista-unica-sul-mare-nei-mesi-pi-caldi-il-parco-ideale-per-passeggiate-a-cavallo-escursioni-in-mountain-bike-e-degustazioni-enogastronomiche {
+.escursioni {
     color: #000000;
     text-align: left;
     font-family: 'Poppins-Regular', sans-serif;
@@ -974,7 +973,7 @@ top: 380px;
   
 
 /* zona*/
-  .etna-visit {
+  .pollino-visit {
     font-family:
       Poppins,
       -apple-system,
@@ -984,7 +983,7 @@ top: 380px;
     color: #000000;
   }
   
-  .etna-visit__content {
+  .pollino-visit__content {
     z-index: 10;
     display: flex;
     margin-top: -8px;
@@ -995,7 +994,7 @@ top: 380px;
     align-items: stretch;
   }
   
-  .etna-visit__title {
+  .pollino-visit__title {
     font-size: 50px;
     font-weight: 500;
     line-height: 1;
@@ -1005,7 +1004,7 @@ top: 380px;
     top: 400px;
   }
   
-  .etna-visit__description {
+  .pollino-visit__description {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
@@ -1015,7 +1014,7 @@ top: 380px;
     top: 400px;
   }
   
-  .etna-visit__map {
+  .pollino-visit__map {
  
     margin-top: 84px;
     height: 522px;
@@ -1025,12 +1024,12 @@ top: 380px;
    top: 310px;
   }
   
-  .etna-visit__map-container {
+  .pollino-visit__map-container {
     width: 100%;
    
   }
   
-  .etna-visit__map-image {
+  .pollino-visit__map-image {
     aspect-ratio: 2.75;
     object-fit: contain;
     object-position: center;
@@ -1040,30 +1039,30 @@ top: 380px;
   }
   
   @media (max-width: 991px) {
-    .etna-visit__content {
+    .pollino-visit__content {
       max-width: 100%;
     }
   
-    .etna-visit__title {
+    .pollino-visit__title {
       max-width: 100%;
       font-size: 40px;
     }
   
-    .etna-visit__description {
+    .pollino-visit__description {
       max-width: 100%;
       margin-top: 40px;
     }
   
-    .etna-visit__map {
+    .pollino-visit__map {
       max-width: 100%;
       margin-top: 40px;
     }
   
-    .etna-visit__map-container {
+    .pollino-visit__map-container {
       max-width: 100%;
     }
   
-    .etna-visit__map-image {
+    .pollino-visit__map-image {
       max-width: 100%;
     }
   }
