@@ -12,12 +12,10 @@ body {
 
 
   /*testo 1 */
-  .esplora-i-parchi-d-italia,
-.esplora-i-parchi-d-italia * {
+  .esplora-i-parchi-naturali {
   box-sizing: border-box;
 }
-.esplora-i-parchi-d-italia,
-.esplora-i-parchi-d-italia * {
+.esplora-i-parchi-naturali {
   color: #000000;
   text-align: left;
   font-family: "Poppins-Medium", sans-serif;
