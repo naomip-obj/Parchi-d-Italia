@@ -17,7 +17,7 @@ body {
   box-sizing: border-box;
 }
 .esplora-i-parchi-d-italia {
-  color: var(--color-black, #000000);
+  color: #000000;
   text-align: left;
   font-family: "Poppins-Medium", sans-serif;
   font-size: 100px;
@@ -36,7 +36,7 @@ body {
 }
 
 .descrizione-iniziale {
-  color: var(--color-black, #000000);
+  color: #000000;
   text-align: left;
   font-family: "Poppins-Regular", sans-serif;
   font-size: 20px;
@@ -591,10 +591,10 @@ top: 700px;
 .copyright {
     color: #ffffff;
     text-align: left;
-    font-family: var(--paragraph-default-font-family, 'DmSans-Regular', sans-serif);
-    font-size: var(--paragraph-default-font-size, 18px);
-    line-height: var(--paragraph-default-line-height, 30px);
-    font-weight: var(--paragraph-default-font-weight, 400);
+    font-family: 'DmSans-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
     position: relative;
     width: 310.36px;
 }
@@ -682,10 +682,10 @@ top: 700px;
 .footer-title {
     color: #ffffff;
     text-align: left;
-    font-family: var(--text-single-300-bold-font-family, 'DmSans-Bold', sans-serif);
-    font-size: var(--text-single-300-bold-font-size, 20px);
-    line-height: var(--text-single-300-bold-line-height, 22px);
-    font-weight: var(--text-single-300-bold-font-weight, 700);
+    font-family: 'DmSans-Bold', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
     position: relative;
 }
 
@@ -722,30 +722,30 @@ top: 700px;
 .home {
     color: #ffffff;
     text-align: center;
-    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
-    font-size: var(--text-single-200-regular-font-size, 18px);
-    line-height: var(--text-single-200-regular-line-height, 20px);
-    font-weight: var(--text-single-200-regular-font-weight, 400);
+    font-family: 'DmSans-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
     position: relative;
 }
 
 .chi-siamo {
     color: #ffffff;
     text-align: center;
-    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
-    font-size: var(--text-single-200-regular-font-size, 18px);
-    line-height: var(--text-single-200-regular-line-height, 20px);
-    font-weight: var(--text-single-200-regular-font-weight, 400);
+    font-family: 'DmSans-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
     position: relative;
 }
 
 .termini-e-condizioni {
     color: #ffffff;
     text-align: center;
-    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
-    font-size: var(--text-single-200-regular-font-size, 18px);
-    line-height: var(--text-single-200-regular-line-height, 20px);
-    font-weight: var(--text-single-200-regular-font-weight, 400);
+    font-family: 'DmSans-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
     position: relative;
 }
 
@@ -762,20 +762,20 @@ top: 700px;
 .privacy-policy {
     color: #ffffff;
     text-align: center;
-    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
-    font-size: var(--text-single-200-regular-font-size, 18px);
-    line-height: var(--text-single-200-regular-line-height, 20px);
-    font-weight: var(--text-single-200-regular-font-weight, 400);
+    font-family: 'DmSans-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
     position: relative;
 }
 
 .cookie-policy {
     color: #ffffff;
     text-align: center;
-    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
-    font-size: var(--text-single-200-regular-font-size, 18px);
-    line-height: var(--text-single-200-regular-line-height, 20px);
-    font-weight: var(--text-single-200-regular-font-weight, 400);
+    font-family: 'DmSans-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
     position: relative;
 }
 
@@ -831,10 +831,10 @@ top: 700px;
 .link-item {
     color: #ffffff;
     text-align: center;
-    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
-    font-size: var(--text-single-200-regular-font-size, 18px);
-    line-height: var(--text-single-200-regular-line-height, 20px);
-    font-weight: var(--text-single-200-regular-font-weight, 400);
+    font-family: 'DmSans-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
     position: relative;
 }
 
@@ -930,10 +930,10 @@ top: 700px;
 .footer-description {
     color: #ffffff;
     text-align: left;
-    font-family: var(--paragraph-default-font-family, 'DmSans-Regular', sans-serif);
-    font-size: var(--paragraph-default-font-size, 18px);
-    line-height: var(--paragraph-default-line-height, 30px);
-    font-weight: var(--paragraph-default-font-weight, 400);
+    font-family: 'DmSans-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
     position: relative;
     width: 197.62px;
 }
@@ -953,10 +953,10 @@ top: 700px;
 .copyright3 {
     color: #f5f5fa;
     text-align: center;
-    font-family: var(--text-single-200-regular-font-family, 'DmSans-Regular', sans-serif);
-    font-size: var(--text-single-200-regular-font-size, 18px);
-    line-height: var(--text-single-200-regular-line-height, 18px);
-    font-weight: var(--text-single-200-regular-font-weight, 400);
+    font-family: 'DmSans-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
     position: absolute;
     left: 491.35px;
     top: 330px;

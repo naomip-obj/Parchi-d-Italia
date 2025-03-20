@@ -16,8 +16,9 @@ body {
 .esplora-i-parchi-d-italia * {
   box-sizing: border-box;
 }
-.esplora-i-parchi-d-italia {
-  color: var(--color-black, #000000);
+.esplora-i-parchi-d-italia,
+.esplora-i-parchi-d-italia * {
+  color: #000000;
   text-align: left;
   font-family: "Poppins-Medium", sans-serif;
   font-size: 100px;
