@@ -1,1056 +1,1086 @@
-/* Stili generali per la pagina */
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffff; /* Colore di sfondo chiaro */
-  }
- 
-  body {
-    min-height: 980vh; /* scroll pagina */
+/* Reset & base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 body {
-    overflow: hidden;
-  }
-
-
-
-/*footer */
-.footer,
-.footer * {
-    box-sizing: border-box;
-}
-
-.footer {
-    position: absolute;
-    top: 6450px;
-   justify-content: center;
-}
-
-.rectangle-647 {
-    background: #0d1f38;
-    width: 2444px;
-    height: 377px;
-    position:absolute;
-    left: 0px;
-    top: 0px;
-}
-
-.info {
-    width: 1280.36px;
-    height: 234px;
-    position: center;
-}
-
-.frame-3 {
-    display: flex;
-    flex-direction: row;
-    gap: 124px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 84px;
-    top: 59px;
-}
-
-._24-px {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.logo-3 {
-    flex-shrink: 0;
-    width: 211px;
-    height: 32px;
-    position: static;
-}
-
-.parchi-d-italia-1 {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Poppins-Bold', sans-serif;
-    font-size: 29.462657928466797px;
-    line-height: 31.1px;
-    font-weight: 700;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
-.copyright {
-    color: #ffffff;
-    text-align: left;
-font-family: 'Poppins-Bold', sans-serif;
-font-size: 18px;
-line-height: 30px;
-font-weight: 400;
-position: relative;
-width: 310.36px;
-}
-
-.social-media-container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.social-media-icon-square-facebook {
-    flex-shrink: 0;
-    width: 11px;
-    height: 19px;
-    position: relative;
-    overflow: visible;
-}
-
-.social-media-icon-square-instagram {
-    flex-shrink: 0;
-    width: 19px;
-    height: 19px;
-    position: relative;
-    overflow: visible;
-}
-
-.social-media-icon-square-linked-in {
-    flex-shrink: 0;
-    width: 19px;
-    height: 18px;
-    position: relative;
-}
-
-.group-73 {
-    width: 94.74%;
-    height: 95.24%;
-    position: absolute;
-    right: 0.79%;
-    left: 4.47%;
-    bottom: 0.19%;
-    top: 4.58%;
-    overflow: visible;
-}
-
-.social-media-icon-square-you-tube {
-    flex-shrink: 0;
-    width: 21px;
-    height: 15px;
-    position: relative;
-}
-
-.group-732 {
-    width: 94.29%;
-    height: 93.31%;
-    position: absolute;
-    right: 1.19%;
-    left: 4.52%;
-    bottom: 4.04%;
-    top: 2.64%;
-    overflow: visible;
-}
-
-.footer-right {
-    flex-shrink: 0;
-    width: 165px;
-    height: 158px;
-    position: static;
-}
-
-.footer-column {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 434.36px;
-    top: 0px;
-}
-
-.footer-title {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'DmSans-Bold', sans-serif;
-    font-size: 20px;
-    line-height: 22px;
-    font-weight: 700;
-    position: relative;
-}
-
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.link {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.master-link {
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.home {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.chi-siamo {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.termini-e-condizioni {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.footer-column2 {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.privacy-policy {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.cookie-policy {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.link2 {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 116px;
-    height: 20px;
-    position: relative;
-}
-
-.group-39464 {
-    flex-shrink: 0;
-    width: 265px;
-    height: 208px;
-    position: static;
-}
-
-.link3 {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 1015.36px;
-    top: 64px;
-}
-
-.line-rounded-email {
-    flex-shrink: 0;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    overflow: hidden;
-}
-
-.email {
-    width: 83.33%;
-    height: 62.5%;
-    position: absolute;
-    right: 8.33%;
-    left: 8.33%;
-    bottom: 18.17%;
-    top: 19.33%;
-    overflow: visible;
-}
-
-.link-item {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.footer-column3 {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 1015.36px;
-    top: 0px;
-}
-
-.link4 {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 1015.36px;
-    top: 106px;
-}
-
-.line-rounded-phone {
-    flex-shrink: 0;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    overflow: hidden;
-}
-
-.phone {
-    width: 83.34%;
-    height: 83.33%;
-    position: absolute;
-    right: 8.32%;
-    left: 8.33%;
-    bottom: 9.84%;
-    top: 6.83%;
-    overflow: visible;
-}
-
-._8-px {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 1015.36px;
-    top: 148px;
-}
-
-.spacer-icon-wrapper {
-    flex-shrink: 0;
-    width: 20px;
-    height: 25.7px;
-    position: static;
-}
-
-.line-rounded-mark {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 0px;
-    top: 5.7px;
-    overflow: hidden;
-}
-
-.mark {
-    width: 68.61%;
-    height: 83.33%;
-    position: absolute;
-    right: 15.7%;
-    left: 15.7%;
-    bottom: 8.33%;
-    top: 8.33%;
-    overflow: visible;
-}
-
-.spacer {
-    background: #ededed;
-    opacity: 0;
-    width: 16.74px;
-    height: 10.46px;
-    position: absolute;
-    left: 1.41px;
-    top: 0px;
-}
-
-.footer-description {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-    position: relative;
-    width: 197.62px;
-}
-
-.copyright2 {
-    width: 1302px;
-    height: 50px;
-    position: static;
-}
-
-.footer-botom {
-    width: 1302px;
-    height: 50px;
-    position: static;
-}
-
-.copyright3 {
-    color: #f5f5fa;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 400;
-    position: absolute;
-    left: 491.35px;
-    top: 330px;
-    width: 466.37px;
-}
-
-.divider {
-    margin-top: -1px;
-    border-style: solid;
-    border-color: #ffffff;
-    border-width: 1px 0 0 0;
-    width: 1302px;
-    height: 0px;
-    position: absolute;
-    left: 1375px;
-    top: 298px;
-    transform-origin: 0 0;
-    transform: rotate(180deg) scale(1, 1);
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 
-/* sezione 1 */
-.text, /* titolo */
-.text * {
+
+
+/* Sezione 1 - Titolo */
+.text, .text * {
     box-sizing: border-box;
 }
 
 .text {
-    color: #000000;
+    color: #000;
     text-align: left;
-    bottom: -90px;
     font-family: 'Poppins-Regular', sans-serif;
-    font-size: 100px;
-    line-height: 96%;
-    font-weight: 0;
+    font-size: clamp(40px, 6vw, 100px); /* testo scalabile */
+    line-height: 1.1;
+    font-weight: 400;
+    margin: 100px 0 0 60px; /* sostituisce top/left */
     position: relative;
-    top: 100px;
-    left: 60px;
 }
 
-.text, /* didascalia */
-.text-1 * {
+/* Sezione 1 - Didascalia */
+.text-1, .text-1 * {
     box-sizing: border-box;
 }
 
 .text-1 {
-    color: #000000;
+    color: #000;
     text-align: left;
     font-family: 'Poppins-Regular', sans-serif;
-   font-size: 20px;
-  line-height: 129%;
-  font-weight: 400;
-  position: relative;
-  top: 135px;
-  left: 65px;
+    font-size: clamp(16px, 2vw, 20px); /* testo scalabile */
+    line-height: 1.3;
+    font-weight: 400;
+    margin: 20px 0 0 65px; /* sostituisce top/left */
+    position: relative;
 }
 
-/*sezione immagine */
-img {
+/* Responsive - Tablet */
+@media (max-width: 992px) {
+    .text {
+        font-size: clamp(32px, 5vw, 80px);
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    .text-1 {
+        margin-left: 40px;
+    }
+}
 
-    width: 100px; /* Imposta la larghezza a 100px */
-    height: auto; /* Mantiene le proporzioni originali */
+/* Responsive - Mobile */
+@media (max-width: 768px) {
+    .text {
+        font-size: clamp(24px, 5vw, 60px);
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+    .text-1 {
+        font-size: clamp(14px, 3vw, 18px);
+        margin-left: 20px;
+    }
+}
+
+/* Extra small (480px) */
+@media (max-width: 480px) {
+    .text {
+        font-size: clamp(26px, 7vw, 46px);  /* titolo più grande */
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+    .text-1 {
+        font-size: clamp(14px, 4vw, 18px);  /* sottotitolo più leggibile */
+        margin-left: 15px;
+    }
+}
+
+/* Stile immagine divisore */
+.img {
+  display: block;
+  width: 100%;              /* occupa tutto lo schermo */
+  height: 380px;            /* altezza elegante, non troppo ingombrante */
+  object-fit: cover;        /* taglia per riempire proporzioni */
+  margin: 60px 0;           /* spazio sopra e sotto, nessun margine ai lati */
+  border-radius: 0;         /* divisore = nessun bordo arrotondato */
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12); /* ombra leggera */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .img {
+    height: 300px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.1);
   }
+}
 
-  img {
-    width: 100%;
-    height: auto;
-position: absolute;
-top: 380px;
-
+/* Mobile */
+@media (max-width: 768px) {
+  .img {
+    height: 220px;
+    margin: 40px 0;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
   }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+/* Extra small (480px) */
+@media (max-width: 480px) {
+  .img {
+    height: 180px;
+    margin: 30px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   }
-  
-
-  img {
-    width: 100%;
-    height: 560px;
-    position: absolute;
-   left: 0px;
-   bottom: 50px;
-    object-fit: cover; /* Ritaglia l'immagine per riempire il contenitore */
-  }
-
-  
+}
 
 
-/* info parco */
+/* INFO PARCO */
 .section-12 {
-    width: 802px;
-    height: 105px;
-    position: static;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: #fafafa;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  display: flex;                  /* icona + testo affiancati */
+  align-items: center;            /* allineamento verticale */
+  gap: 30px;                      /* spazio tra icona e testo */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.icona {
+  flex: 0 0 120px;                /* icona fissa */
+  max-width: 120px;
+  height: auto;
+}
+
+.testo-info {
+  flex: 1;                        /* testo prende il resto dello spazio */
+  text-align: left;               /* allineato a sinistra */
+}
+
+.testo-info h3 {
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 1.6rem;
+  color: #111;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
 }
 
 .discalia {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 16px;
-    line-height: 129%;
-    font-weight: 400;
-    position: absolute;
-    left: calc(55% - 252px);
-    top: 1020px;
-    width: 802px;
+  color: #333;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  max-width: 650px;
 }
 
-.icona {
-    width: 100%;
-    max-width: 175.46px;
-    height: auto;
-    position: absolute;
-    left: 250px;
-    top: 970px;
-    object-fit: cover;
+/* Responsive */
+@media (max-width: 768px) {
+  .section-12 {
+    flex-direction: column;       /* in verticale su mobile */
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .icona {
+    max-width: 90px;
+    margin-bottom: 15px;
+  }
+
+  .testo-info {
+    text-align: center;
+  }
+
+  .testo-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .discalia {
+    font-size: 1rem;
+  }
 }
 
- /* parte sezione 1 */
-
-.parte-1,
-.parte-1 * {
-    box-sizing: border-box;
-}
-
+/* SEZIONE 1 */
+/* --- SEZIONE 1 (Parco Pollino) --- */
 .parte-1 {
-    height: 3342px;
-    position: relative;
-    left: -400px;
-   top: 900px;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  font-family: 'Poppins', sans-serif;
 }
 
+/* Layout base: testo + immagine affiancati */
+._2, ._3, .sezione-2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap; /* per sicurezza */
+}
+
+/* Invertiamo l’ordine a seconda delle sezioni per varietà */
 ._2 {
-    width: 1772px;
-    height: 660px;
-    position: static;
-}
-
-.group-39531 {
-    width: 551px;
-    height: 391px;
-    position: static;
-}
-
-.fauna-emblematica {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
-    font-weight: 600;
-    position: absolute;
-    left: 574px;
-    top: 1015px;
-    width: 514px;
-}
-.biodiversita {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 17.921348571777344px;
-    line-height: 129%;
-    font-weight: 400;
-    position: absolute;
-    left: 574px;
-    top: 1199px;
-    width: 551px;
-}
-
-.rectangle-681 {
-    width: 568px;
-    height: 660px;
-    position: absolute;
-    left: 1204px;
-    top: 880px;
-    object-fit: cover;
-}
-
-.frame-15 {
-    width: 575px;
-    height: 140px;
-    position: absolute;
-    left: 0px;
-    top: 925px;
+  flex-direction: row; /* testo sinistra - img destra */
 }
 
 ._3 {
-    width: 1261px;
-    height: 660px;
-    position: static;
-}
-
-.frame-152 {
-    width: 575px;
-    height: 140px;
-    position: absolute;
-    left: 1260px;
-    top: 1810px;
-}
-
-.group-39535 {
-    position: absolute;
-    inset: 0;
-}
-
-.un-patrimonio {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-SemiBold', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
-    font-weight: 600;
-    position: absolute;
-    left: -56px;
-    top: 7px;
-    width: 514px;
-}
-
-.pino-loricato {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 17.921348571777344px;
-    line-height: 129%;
-    font-weight: 400;
-    position: absolute;
-    left: -56px;
-    top: 191px;
-    width: 551px;
-}
-
-.rectangle-6812 {
-    width: 568px;
-    height: 660px;
-    position: absolute;
-    left: 574px;
-    top: 1682px;
-    object-fit: cover;
+  flex-direction: row-reverse; /* img sinistra - testo destra */
 }
 
 .sezione-2 {
-    width: 1198px;
-    height: 660px;
-    position: static;
+  flex-direction: row; /* testo sinistra - img destra */
 }
 
+
+/* Sezione 2.1 */
+.parte-problematica {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap; /* per responsive */
+  font-family: 'Poppins', sans-serif;
+  flex-direction: row; /* testo sinistra - immagine destra */
+}
+
+/* Testo */
+.parte-problematica .text-wrapper {
+  flex: 1 1 50%;
+  max-width: 600px;
+}
+
+.parte-problematica .paesaggi {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.parte-problematica .montagne-parcoPollino {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+  text-align: justify;
+}
+
+/* Immagine */
+.parte-problematica img.rectangle-6813 {
+  flex: 1 1 45%;
+  max-width: 500px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parte-problematica img.rectangle-6813:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .parte-problematica {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .parte-problematica .text-wrapper {
+    max-width: 100%;
+  }
+
+  .parte-problematica img.rectangle-6813 {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .parte-problematica .paesaggi {
+    font-size: 1.6rem;
+  }
+
+  .parte-problematica .montagne-parcoPollino {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+
+
+/* Titoli */
+.fauna-emblematica,
+.un-patrimonio,
 .paesaggi {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-SemiBold', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
-    font-weight: 600;
-    position: absolute;
-    left: 1204px;
-    top: 110px;
-    width: 514px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  line-height: 1.3;
 }
 
+/* Testo descrizione */
+.biodiversità,
+.pino-loricato,
 .montagne-parcoPollino {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 17.921348571777344px;
-    line-height: 129%;
-    font-weight: 400;
-    position: absolute;
-    left: 1204px;
-    top: 294px;
-    width: 551px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+  text-align: justify;
+  max-width: 600px;
 }
 
+/* Immagini */
+.rectangle-681,
+.rectangle-6812,
 .rectangle-6813 {
-    width: 568px;
-    height: 660px;
-    position: absolute;
-    left: 557px;
-    top: 74px;
-    object-fit: cover;
+  flex: 1 1 45%;
+  max-width: 500px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.line-2 {
-    margin-top: -1px;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 1px 0 0 0;
-    width: 1135px;
-    height: 0px;
-    position: absolute;
-    left: 774px;
-    top: 0px;
+.rectangle-681:hover,
+.rectangle-6812:hover,
+.rectangle-6813:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* Contenitori testo */
+.group-39531,
+.frame-152,
+.sezione-2 {
+  flex: 1 1 50%;
+  max-width: 600px;
 }
 
 
-/* parte sezione 2-griglia */
-.section-3,
-.section-3 * {
-    box-sizing: border-box;
+
+/* --- RESPONSIVE --- */
+
+/* Tablet */
+@media (max-width: 992px) {
+  ._2, ._3, .sezione-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .group-39531,
+  .frame-152,
+  .sezione-2 {
+    max-width: 100%;
+  }
+
+  .fauna-emblematica,
+  .un-patrimonio,
+  .paesaggi {
+    font-size: 1.6rem;
+  }
+
+  .biodiversità,
+  .pino-loricato,
+  .montagne-parcoPollino {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .rectangle-681,
+  .rectangle-6812,
+  .rectangle-6813 {
+    max-width: 100%;
+  }
 }
 
+/* Mobile */
+@media (max-width: 600px) {
+  .parte-1 {
+    margin: 50px auto;
+    gap: 60px;
+  }
+
+  .fauna-emblematica,
+  .un-patrimonio,
+  .paesaggi {
+    font-size: 1.4rem;
+  }
+
+  .biodiversità,
+  .pino-loricato,
+  .montagne-parcoPollino {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* SEZIONE 2 (ATTIVITÀ) */
+/* Sezione 2-griglia */
 .section-3 {
-    height: 1075px;
-    position: relative;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap; /* permette il comportamento responsive */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Immagine principale */
+.section-3 .rectangle-677 {
+  flex: 1 1 45%;
+  width: 100%;
+  height: 380px;             /* altezza elegante */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
-.rectangle-677 {
-    width: 100%;
-    height: 538px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    object-fit: cover;
+/* Colonna contenuti */
+/* Sezione 2-griglia */
+.section-3 {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap; /* permette il comportamento responsive */
+  font-family: 'Poppins', sans-serif;
 }
 
-
-
-.attivit-per-i-visitatori {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-SemiBold', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
-    font-weight: 600;
-    position: absolute;
-    left: 70px;
-    top: 662px;
-    width: 577px;
+/* Immagine divisore */
+.section-3 .rectangle-677 {
+  display: block;
+  width:2000px;      /* occupa tutta la larghezza dello schermo */
+  max-width: 100%;          /* evita overflow */
+  height: 380px;            /* altezza elegante */
+  object-fit: cover;        /* riempie proporzioni senza deformare */
+  margin: 60px 0 60px 0;    /* spazio solo sopra e sotto */
+  padding: 0;               /* niente padding */
+  border-radius: 0;         /* bordi squadrati */
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12); /* ombra leggera */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;       /* necessario se vuoi overlay di testo in futuro */
+  left: 0;                  /* assicura allineamento al bordo */
 }
 
-.frame-9 {
-    display: flex;
+/* Colonna contenuti */
+.section-3 .group-39533 {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Titolo sezione */
+.section-3 .attivit-per-i-visitatori {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+
+/* Testo descrittivo */
+.section-3 .escursioni {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  text-align: justify;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .section-3 .rectangle-677 {
+    height: 300px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.1);
+  }
+}
+
+/* Responsive: tablet 992px */
+@media (max-width: 992px) {
+  .section-3 {
     flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 1164.93px;
-    position: absolute;
-    left: 70px;
-    top: 789px;
-}
+    gap: 30px;
+    text-align: center;
+  }
 
-.escursioni {
-    color: #000000;
+  .section-3 .rectangle-677,
+  .section-3 .group-39533 {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .section-3 .escursioni {
     text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 2px;
-    line-height: 129%;
-    font-weight: 400;
-    position: relative;
-    width: 1033px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .section-3 .rectangle-677 {
+    height: 220px;
+    margin: 40px 0;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  }
+
+  .section-3 .attivit-per-i-visitatori {
+    font-size: 1.6rem;
+  }
+
+  .section-3 .escursioni {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+
+/* Extra small (480px) */
+@media (max-width: 480px) {
+  .section-3 .rectangle-677 {
+    height: 180px;
+    margin: 30px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .section-3 .attivit-per-i-visitatori {
+    font-size: 1.4rem;
+  }
+
+  .section-3 .escursioni {
+    font-size: 0.9rem;
+  }
 }
 
 
-/* parte sezione 3 */
+/* Responsive: mobile */
+@media (max-width: 768px) {
+  .section-3 .rectangle-677 {
+    height: 250px;
+    border-radius: 6px;
+  }
 
-.text,
-.text * {
-    box-sizing: border-box;
+  .section-3 .attivit-per-i-visitatori {
+    font-size: 1.6rem;
+  }
+
+  .section-3 .escursioni {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
+/* Extra small (480px) */
+@media (max-width: 480px) {
+  .section-3 .rectangle-677 {
+    height: 180px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .section-3 .attivit-per-i-visitatori {
+    font-size: 1.4rem;
+  }
+
+  .section-3 .escursioni {
+    font-size: 0.9rem;
+  }
 }
 
-.group-39538 {
-    flex-shrink: 0;
-    width: 507px;
-    height: 414px;
-    position: static;
-}
 
-.conservazione-e-sostenibilit {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-SemiBold', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
-    font-weight: 600;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 470px;
-}
+/* SEZIONE CONSERVAZIONE */
+
 
 .conservation-section {
-    font-family:
-      Poppins,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-  
-  .conservation-layout {
-    gap: 20px;
-    display: flex;
-  }
-  
-  .image-column {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    line-height: normal;
-    width: 50%;
-    margin-left: 0px;
-  }
-  
-  .conservation-image {
-    aspect-ratio: 0.86;
-    object-fit: contain;
-    object-position: center;
-    width: 100%;
-    flex-grow: 1;
-    position: relative;
-    top: 128px;
-  }
-  
-  .content-column {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    line-height: normal;
-    width: 50%;
-    margin-left: 20px;
-  }
-  
-  .content-wrapper {
-    z-index: 10;
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
-    flex-direction: column;
-    align-self: stretch;
-    align-items: stretch;
-    color: #000000;
-  }
-  
-  .section-title {
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 57px;
-    align-self: start;
-    margin: 0;
-    position: relative;
-    top: 98px;
- right: 90px;
-  }
-  
-  .section-description {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 70px;
-    margin: 70px 0 0 0;
-    position: relative;
-    top: 128px;
- right: 90px;
-  }
-  
-  @media (max-width: 991px) {
-    .conservation-layout {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  
-    .image-column {
-      width: 100%;
-    }
-  
-    .conservation-image {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  
-    .content-column {
-      width: 100%;
-    }
-  
-    .content-wrapper {
-      max-width: 100%;
-      margin-top: 40px;
-      margin-right: -13px;
-    }
-  
-    .section-title {
-      font-size: 40px;
-      line-height: 51px;
-    }
-  
-    .section-description {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  
+  width: 100%;
+  padding: 80px 20px;
+  background-color: #fdfaf6;
+  font-family: 'Poppins', sans-serif;
+  color: #1a1a1a;
+  box-sizing: border-box;
+}
 
-/* zona*/
-  .pollino-visit {
-    font-family:
-      Poppins,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-    color: #000000;
-  }
-  
-  .pollino-visit__content {
-    z-index: 10;
-    display: flex;
-    margin-top: -8px;
-    margin-left: 55px;
-    width: 100%;
-    max-width: 1185px;
+.conservation-layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap; /* garantisce responsive */
+}
+
+/* Colonna testo (sinistra) */
+.content-column {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-wrapper {
+  max-width: 500px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: #1a1a1a;
+}
+
+.section-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  text-align: left;
+}
+
+/* Colonna immagine (destra) */
+.image-column {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.conservation-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.conservation-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+}
+
+
+/* Responsive */
+
+/* Tablet (≤992px) */
+@media (max-width: 992px) {
+  .conservation-layout {
     flex-direction: column;
-    align-items: stretch;
+    gap: 30px;
+    text-align: center;
   }
-  
+
+  .content-column, .image-column {
+    flex: 1 1 100%;
+  }
+
+  .section-description {
+    text-align: center;
+  }
+
+  .conservation-image {
+    height: 250px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .conservation-section {
+    padding: 60px 15px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .conservation-image {
+    height: 200px;
+  }
+}
+
+/* Extra small (≤480px) */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .section-description {
+    font-size: 0.9rem;
+  }
+
+  .conservation-image {
+    height: 160px;
+  }
+}
+
+/* Sezione Conservazione - Side-by-side Layout */
+
+
+.conservation-section {
+  width: 100%;
+  padding: 80px 20px;
+  background-color: #fdfaf6;
+  font-family: 'Poppins', sans-serif;
+  color: #1a1a1a;
+  box-sizing: border-box;
+}
+
+.conservation-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Colonna testo (sinistra) */
+.content-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-wrapper {
+  max-width: 500px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: #1a1a1a;
+}
+
+.section-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  text-align: left;
+}
+
+/* Colonna immagine (destra) */
+.image-column {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.conservation-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.conservation-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+}
+
+
+/* Responsive */
+
+/* Tablet (≤992px) */
+@media (max-width: 992px) {
+  .conservation-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .content-column, .image-column {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-description {
+    text-align: center;
+  }
+
+  .conservation-image {
+    height: 250px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .conservation-section {
+    padding: 60px 15px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .conservation-image {
+    height: 200px;
+  }
+}
+
+/* Extra small (≤480px) */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .section-description {
+    font-size: 0.9rem;
+  }
+
+  .conservation-image {
+    height: 160px;
+  }
+}
+
+
+
+
+
+
+/* SEZIONE MAPPA  */
+.pollino-visit {
+  padding: 100px 20px;
+  background-color: #f9f7f3;
+  font-family: 'Poppins', sans-serif;
+  color: #1a1a1a;
+  box-sizing: border-box;
+}
+
+.pollino-visit__title {
+  font-size: clamp(2.2rem, 5vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.pollino-visit__description {
+  font-size: clamp(1rem, 2.2vw, 1.1rem);
+  line-height: 1.7;
+  margin-bottom: 50px;
+  max-width: 850px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #444;
+}
+
+.pollino-visit__map {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.pollino-visit__map-image {
+  width: 100%;
+  height: 400px; /* leggermente più elegante e prominente */
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pollino-visit__map-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* RESPONSIVE: tablet */
+@media (max-width: 991px) {
   .pollino-visit__title {
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 1;
-    align-self: start;
-    margin: 0;
-    position: relative;
-    top: 400px;
+    font-size: 2rem;
   }
-  
+
   .pollino-visit__description {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 54px;
-    margin-bottom: 0;
-    position: relative;
-    top: 400px;
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
-  
-  .pollino-visit__map {
- 
-    margin-top: 84px;
-    height: 522px;
-    width: 100%;
-    overflow: hidden;
-   position: relative;
-   top: 310px;
-  }
-  
-  .pollino-visit__map-container {
-    width: 100%;
-   
-  }
-  
+
   .pollino-visit__map-image {
-    aspect-ratio: 2.75;
-    object-fit: contain;
-    object-position: center;
-    width: 100%;
-    position: relative;
-    top: 100px;
+    height: 300px;
   }
-  
-  @media (max-width: 991px) {
-    .pollino-visit__content {
-      max-width: 100%;
-    }
-  
-    .pollino-visit__title {
-      max-width: 100%;
-      font-size: 40px;
-    }
-  
-    .pollino-visit__description {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  
-    .pollino-visit__map {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  
-    .pollino-visit__map-container {
-      max-width: 100%;
-    }
-  
-    .pollino-visit__map-image {
-      max-width: 100%;
-    }
+}
+
+/* RESPONSIVE: smartphone */
+@media (max-width: 600px) {
+  .pollino-visit__title {
+    font-size: 1.6rem;
   }
-  
+
+  .pollino-visit__description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .pollino-visit__map-image {
+    height: 220px;
+  }
+}
+
+/* EXTRA SMALL */
+@media (max-width: 480px) {
+  .pollino-visit__title {
+    font-size: 1.4rem;
+  }
+
+  .pollino-visit__description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .pollino-visit__map-image {
+    height: 180px;
+  }
+}
+
+
+
+/* footer */
+.footer {
+  background: #0d1f38;
+  color: #fff;
+  padding: 60px 20px;
+  margin-top: 0px;
+}
+
+.footer .frame-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.copyright2 {
+  border-top: 1px solid #ffffff50;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #f5f5fa;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .parchi-d-italia {
+        font-size: 8vw;
+    }
+    .scopri-la- {
+        font-size: 2vw;
+    }
+    .grid-container {
+        margin-top: 15vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar a {
+        flex: 100%;
+        text-align: left;
+    }
+    .parchi-d-italia {
+        font-size: 10vw;
+        text-align: center;
+        left: 0;
+        width: 100%;
+    }
+    .scopri-la- {
+        font-size: 3vw;
+        text-align: center;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+        top: 12vw;
+    }
+    .grid-container {
+        margin-top: 25vw;
+        grid-template-columns: 1fr;
+    }
+    .footer .frame-3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .parchi-d-italia {
+        font-size: 12vw;
+    }
+    .scopri-la- {
+        font-size: 4vw;
+        top: 15vw;
+    }
+    .grid-container {
+        margin-top: 30vw;
+    }
+}
+
+/* Container dei social media */
+.social-media-container {
+  display: flex;
+  gap: 16px; /* Spazio tra le icone */
+  align-items: center; /* Allinea verticalmente */
+  margin-top: 10px;
+}
+
+/* Dimensione uniforme per le icone SVG */
+.social-media-container svg {
+  width: 24px; /* Larghezza standard */
+  height: 24px; /* Altezza standard */
+  cursor: pointer;
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+/* Effetto hover */
+.social-media-container svg:hover {
+  transform: scale(1.1);
+  fill: #1DA1F2; /* Cambia colore al passaggio del mouse, puoi adattare per ogni social */
+}

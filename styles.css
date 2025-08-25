@@ -1,16 +1,35 @@
-/* Stili generali per la pagina */
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff; /* Colore di sfondo chiaro */
+/* Reset & base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  min-height: 108vh; /* scroll pagina */
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
 }
 
-
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-size: 18px;
+}
+.navbar a {
+    flex: 1 1 auto;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
 /*testo 1 */
 .esplora-i-parchi-d-italia,
@@ -45,61 +64,314 @@ font-weight: 400;
 position: relative;
 top: 110px;
 left: 65px;
+width: 80%;
 }
 
 /*testo 3*/
 .learn-more {
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
-gap: 8px;
-cursor: pointer;
-position: relative;
-bottom: -200px;
-right: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    position: relative;
+    bottom: -200px;
+    right: 100px;
+    gap: 8px;
+    justify-content: flex-end;
 }
-
+.learn-more:hover {
+    transform: scale(1.05);
+}
+.learn-more .arrow-1 {
+    margin-right: 8px;
+}
+.scopri-di-pi {
+    font-size: 18px;
+    color: black;
+}
 
 
 /*sezione immagine */
-img {
-  width: 80px; /* Imposta la larghezza a 100px */
-  height: auto; /* Mantiene le proporzioni originali */
-}
-
-img {
-  width: 100%;
-  height: auto;
-position: absolute;
-top: 550px;
-
-}
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
- 
- 
-}
-
-img {
-
-  border-radius: 20px; /* bordi arrotondati */
 }
 
 img {
   width: 96%;
   height: 360px;
   position: absolute;
- left: 20px;
- bottom: 90px;
-  object-fit: cover; /* Ritaglia l'immagine per riempire il contenitore */
+  left: 20px;
+  bottom: 90px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 0 20px 20px;
 }
 
-/* spazio laterale */
-img {
-  margin: 0 20px 20px;  /* 0px sopra, 20px a sinistra e a destra, 50px sotto */
+/* Responsive per schermi grandi (desktop) */
+@media (min-width: 1201px) {
+  .i-parchi-naturali {
+    width: 50%;
+  }
+}
+
+/* Responsive per schermi medi (tablet) */
+@media (max-width: 1200px) {
+  .esplora-i-parchi-d-italia {
+    font-size: 80px;
+  }
+  .i-parchi-naturali {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .esplora-i-parchi-d-italia {
+    font-size: 60px;
+    top: 60px;
+    left: 40px;
+  }
+
+  .i-parchi-naturali {
+    font-size: 14px;
+    top: 80px;
+    left: 45px;
+    width: 90%;
+  }
+
+  .learn-more {
+    bottom: -150px;
+    right: 60px;
+  }
+
+  img {
+    width: 90%;
+    height: 300px;
+    left: 5%;
+    bottom: 70px;
+    margin: 0;
+  }
+}
+
+/* Responsive per schermi piccoli (mobile) */
+@media (max-width: 768px) {
+    .navbar a {
+        flex: 100%;
+        text-align: left;
+    }
+    .esplora-i-parchi-d-italia {
+        font-size: 48px;
+        text-align: center;
+        left: 0;
+        width: 100%;
+    }
+    .i-parchi-naturali {
+        text-align: center;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+        top: 80px;
+    }
+    .learn-more {
+        justify-content: center;
+        right: 0;
+        width: 100%;
+        bottom: -120px;
+    }
+    img {
+        position: relative;
+        width: 90%;
+        height: auto;
+        top: 150px;
+        left: 5%;
+        bottom: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+  .esplora-i-parchi-d-italia {
+    font-size: 36px;
+    top: 40px;
+    left: 0;
+    line-height: 110%;
+    margin-top: 50px;
+  }
+
+  .i-parchi-naturali {
+    font-size: 12px;
+    top: 60px;
+    left: 0;
+  }
+
+  .learn-more {
+    bottom: auto;
+    top: 80px;
+    right: 0;
+    gap: 5px;
+    position: relative;
+  }
+  .scopri-di-pi {
+      font-size: 16px;
+  }
+
+  img {
+    width: 95%;
+    height: 250px;
+    left: 2.5%;
+    top: 100px;
+    bottom: 0;
+  }
 }
 
 
 
+
+
+/* footer */
+.footer {
+  background: #0d1f38;
+  color: #fff;
+  padding: 60px 20px;
+  margin-top:600px;
+}
+
+.footer .frame-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.copyright2 {
+  border-top: 1px solid #ffffff50;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #f5f5fa;
+}
+
+/* Container dei social media */
+.social-media-container {
+  display: flex;
+  gap: 16px; /* Spazio tra le icone */
+  align-items: center; /* Allinea verticalmente */
+  margin-top: 10px;
+}
+
+/* Dimensione uniforme per le icone SVG */
+.social-media-container svg {
+  width: 24px; /* Larghezza standard */
+  height: 24px; /* Altezza standard */
+  cursor: pointer;
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+/* Effetto hover */
+.social-media-container svg:hover {
+  transform: scale(1.1);
+  fill: #1DA1F2; /* Cambia colore al passaggio del mouse, puoi adattare per ogni social */
+}
+
+/* Responsive mobile */
+@media (max-width: 480px) {
+  .social-media-container {
+    gap: 12px;
+  }
+
+  .social-media-container svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .parchi-d-italia {
+        font-size: 8vw;
+    }
+    .scopri-la- {
+        font-size: 2vw;
+    }
+    .grid-container {
+        margin-top: 15vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar a {
+        flex: 100%;
+        text-align: left;
+    }
+    .parchi-d-italia {
+        font-size: 10vw;
+        text-align: center;
+        left: 0;
+        width: 100%;
+    }
+    .scopri-la- {
+        font-size: 3vw;
+        text-align: center;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+        top: 12vw;
+    }
+    .grid-container {
+        margin-top: 25vw;
+        grid-template-columns: 1fr;
+    }
+    .footer .frame-3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+  
+    .footer {
+    margin-top:150px; /* ancora più vicino al contenuto */
+    padding: 30px 10px;
+  }
+  
+    .parchi-d-italia {
+        font-size: 12vw;
+    }
+    .scopri-la- {
+        font-size: 4vw;
+        top: 15vw;
+    }
+    .grid-container {
+        margin-top: 30vw;
+    }
+
+
+}

@@ -1,477 +1,15 @@
-/* Stili generali per la pagina */
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffff; /* Colore di sfondo chiaro */
-  }
- 
-  body {
-    min-height: 980vh; /* scroll pagina */
+/* Reset & base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 body {
-    overflow: hidden;
-  }
-
-
-
-/*footer */
-.footer,
-.footer * {
-    box-sizing: border-box;
-}
-
-.footer {
-    position: absolute;
-    top: 6450px;
-   justify-content: center;
-}
-
-.rectangle-647 {
-    background: #0d1f38;
-    width: 2444px;
-    height: 377px;
-    position:absolute;
-    left: 0px;
-    top: 0px;
-}
-
-.info {
-    width: 1280.36px;
-    height: 234px;
-    position: center;
-}
-
-.frame-3 {
-    display: flex;
-    flex-direction: row;
-    gap: 124px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 84px;
-    top: 59px;
-}
-
-._24-px {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.logo-3 {
-    flex-shrink: 0;
-    width: 211px;
-    height: 32px;
-    position: static;
-}
-
-.parchi-d-italia-1 {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Poppins-Bold', sans-serif;
-    font-size: 29.462657928466797px;
-    line-height: 31.1px;
-    font-weight: 700;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
-.copyright {
-    color: #ffffff;
-    text-align: left;
-font-family: 'Poppins-Bold', sans-serif;
-font-size: 18px;
-line-height: 30px;
-font-weight: 400;
-position: relative;
-width: 310.36px;
-}
-
-.social-media-container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.social-media-icon-square-facebook {
-    flex-shrink: 0;
-    width: 11px;
-    height: 19px;
-    position: relative;
-    overflow: visible;
-}
-
-.social-media-icon-square-instagram {
-    flex-shrink: 0;
-    width: 19px;
-    height: 19px;
-    position: relative;
-    overflow: visible;
-}
-
-.social-media-icon-square-linked-in {
-    flex-shrink: 0;
-    width: 19px;
-    height: 18px;
-    position: relative;
-}
-
-.group-73 {
-    width: 94.74%;
-    height: 95.24%;
-    position: absolute;
-    right: 0.79%;
-    left: 4.47%;
-    bottom: 0.19%;
-    top: 4.58%;
-    overflow: visible;
-}
-
-.social-media-icon-square-you-tube {
-    flex-shrink: 0;
-    width: 21px;
-    height: 15px;
-    position: relative;
-}
-
-.group-732 {
-    width: 94.29%;
-    height: 93.31%;
-    position: absolute;
-    right: 1.19%;
-    left: 4.52%;
-    bottom: 4.04%;
-    top: 2.64%;
-    overflow: visible;
-}
-
-.footer-right {
-    flex-shrink: 0;
-    width: 165px;
-    height: 158px;
-    position: static;
-}
-
-.footer-column {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 434.36px;
-    top: 0px;
-}
-
-.footer-title {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'DmSans-Bold', sans-serif;
-    font-size: 20px;
-    line-height: 22px;
-    font-weight: 700;
-    position: relative;
-}
-
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.link {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.master-link {
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.home {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.chi-siamo {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.termini-e-condizioni {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.footer-column2 {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-}
-
-.privacy-policy {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.cookie-policy {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.link2 {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 116px;
-    height: 20px;
-    position: relative;
-}
-
-.group-39464 {
-    flex-shrink: 0;
-    width: 265px;
-    height: 208px;
-    position: static;
-}
-
-.link3 {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 1015.36px;
-    top: 64px;
-}
-
-.line-rounded-email {
-    flex-shrink: 0;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    overflow: hidden;
-}
-
-.email {
-    width: 83.33%;
-    height: 62.5%;
-    position: absolute;
-    right: 8.33%;
-    left: 8.33%;
-    bottom: 18.17%;
-    top: 19.33%;
-    overflow: visible;
-}
-
-.link-item {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 400;
-    position: relative;
-}
-
-.footer-column3 {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 1015.36px;
-    top: 0px;
-}
-
-.link4 {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 1015.36px;
-    top: 106px;
-}
-
-.line-rounded-phone {
-    flex-shrink: 0;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    overflow: hidden;
-}
-
-.phone {
-    width: 83.34%;
-    height: 83.33%;
-    position: absolute;
-    right: 8.32%;
-    left: 8.33%;
-    bottom: 9.84%;
-    top: 6.83%;
-    overflow: visible;
-}
-
-._8-px {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 1015.36px;
-    top: 148px;
-}
-
-.spacer-icon-wrapper {
-    flex-shrink: 0;
-    width: 20px;
-    height: 25.7px;
-    position: static;
-}
-
-.line-rounded-mark {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 0px;
-    top: 5.7px;
-    overflow: hidden;
-}
-
-.mark {
-    width: 68.61%;
-    height: 83.33%;
-    position: absolute;
-    right: 15.7%;
-    left: 15.7%;
-    bottom: 8.33%;
-    top: 8.33%;
-    overflow: visible;
-}
-
-.spacer {
-    background: #ededed;
-    opacity: 0;
-    width: 16.74px;
-    height: 10.46px;
-    position: absolute;
-    left: 1.41px;
-    top: 0px;
-}
-
-.footer-description {
-    color: #ffffff;
-    text-align: left;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-    position: relative;
-    width: 197.62px;
-}
-
-.copyright2 {
-    width: 1302px;
-    height: 50px;
-    position: static;
-}
-
-.footer-botom {
-    width: 1302px;
-    height: 50px;
-    position: static;
-}
-
-.copyright3 {
-    color: #f5f5fa;
-    text-align: center;
-    font-family: 'DmSans-Regular', sans-serif;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 400;
-    position: absolute;
-    left: 491.35px;
-    top: 330px;
-    width: 466.37px;
-}
-
-.divider {
-    margin-top: -1px;
-    border-style: solid;
-    border-color: #ffffff;
-    border-width: 1px 0 0 0;
-    width: 1302px;
-    height: 0px;
-    position: absolute;
-    left: 1375px;
-    top: 298px;
-    transform-origin: 0 0;
-    transform: rotate(180deg) scale(1, 1);
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  
 }
 
 
@@ -484,7 +22,6 @@ width: 310.36px;
 .text {
     color: #000000;
     text-align: left;
-    bottom: -90px;
     font-family: 'Poppins-Regular', sans-serif;
     font-size: 100px;
     line-height: 96%;
@@ -492,9 +29,13 @@ width: 310.36px;
     position: relative;
     top: 100px;
     left: 60px;
+    bottom: -90px;
 }
 
-.text, /* didascalia */
+
+
+/* didascalia */
+.text-1, 
 .text-1 * {
     box-sizing: border-box;
 }
@@ -503,589 +44,664 @@ width: 310.36px;
     color: #000000;
     text-align: left;
     font-family: 'Poppins-Regular', sans-serif;
-   font-size: 20px;
-  line-height: 129%;
-  font-weight: 400;
-  position: relative;
-  top: 135px;
-  left: 65px;
+    font-size: 20px;
+    line-height: 129%;
+    font-weight: 400;
+    position: relative;
+    top: 135px;
+    left: 65px;
 }
 
-/*sezione immagine */
-img {
+/* RESPONSIVE TABLET */
+@media (max-width: 992px) {
+    .text {
+        font-size: 70px;
+        top: 80px;
+        left: 40px;
+    }
 
-    width: 100px; /* Imposta la larghezza a 100px */
-    height: auto; /* Mantiene le proporzioni originali */
-  }
+    .text-1 {
+        font-size: 18px;
+        top: 110px;
+        left: 45px;
+    }
+}
 
-  img {
-    width: 100%;
-    height: auto;
-position: absolute;
-top: 380px;
+/* RESPONSIVE MOBILE */
+@media (max-width: 600px) {
+    .text {
+        font-size: 45px;
+        top: 60px;
+        left: 20px;
+    }
 
+    .text-1 {
+        font-size: 16px;
+        top: 80px;
+        left: 25px;
+    }
+}
+
+/* EXTRA SMALL */
+@media (max-width: 480px) {
+    .text {
+        font-size: 35px;
+        top: 50px;
+        left: 15px;
+    }
+
+    .text-1 {
+        font-size: 14px;
+        top: 70px;
+        left: 20px;
+    }
+}
+/* SEZIONE IMMAGINE - STILE DIVISORE */
+.img {
+  display: block;
+  width: 100%;                        /* occupa tutta la larghezza */
+  height: clamp(300px, 45vh, 560px);  /* altezza fluida con limiti */
+  object-fit: cover;                   /* taglia mantenendo proporzioni */
+  margin: clamp(30px, 6vh, 60px) 0;   /* margine dinamico */
+  border-radius: 0;                    /* nessun bordo arrotondato */
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+   margin-top: 180px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .img {
+    height: clamp(250px, 40vh, 450px);
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.1);
   }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .img {
+    height: clamp(180px, 35vh, 300px);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    margin-top: 120px;
   }
+}
+
+/* Extra small (480px) */
+@media (max-width: 480px) {
+  .img {
+    height: clamp(120px, 30vh, 180px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+}
+
   
 
-  img {
-    width: 100%;
-    height: 560px;
-    position: absolute;
-   left: 0px;
-   bottom: 50px;
-    object-fit: cover; /* Ritaglia l'immagine per riempire il contenitore */
-  }
-
-  
-
-
-/* info parco */
+/* INFO PARCO */
 .section-12 {
-    width: 802px;
-    height: 105px;
-    position: static;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: #fafafa;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  display: flex;                  /* icona + testo affiancati */
+  align-items: center;            /* allineamento verticale */
+  gap: 30px;                      /* spazio tra icona e testo */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* immagine icona */
+.icona {
+  flex: 0 0 120px;                /* icona con larghezza fissa */
+  max-width: 120px;
+  height: auto;
+  border-radius: 12px;            /* leggero arrotondamento per armonia */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* contenitore testo */
+.testo-info {
+  flex: 1;                        /* prende tutto lo spazio rimanente */
+  text-align: left;
+}
+
+.testo-info h3 {
+  font-family: 'Poppins-SemiBold', sans-serif;
+  font-size: 1.6rem;
+  color: #111;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
 }
 
 .discalia {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 16px;
-    line-height: 129%;
-    font-weight: 400;
-    position: absolute;
-    left: calc(55% - 252px);
-    top: 1020px;
-    width: 802px;
+  color: #333;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  max-width: 650px;
+  text-align: justify;             /* testo giustificato */
 }
 
-.icona {
-    width: 175.46px;
-    height: 255px;
-    position: absolute;
-    left: 250px;
-    top: 950px;
+/* Responsive */
+@media (max-width: 768px) {
+  .section-12 {
+    flex-direction: column;       /* verticale su mobile */
+    text-align: center;
+    padding: 30px 20px;
+  }
 
-    object-fit: cover;
+  .icona {
+    max-width: 90px;
+    margin-bottom: 15px;
+  }
 
+  .testo-info {
+    text-align: center;
+  }
+
+  .testo-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .discalia {
+    font-size: 1rem;
+  }
 }
 
 
- /* parte sezione 1 */
 
+/* --- PARTE SEZIONE 1  --- */
 .parte-1,
 .parte-1 * {
     box-sizing: border-box;
 }
 
 .parte-1 {
-    height: 3342px;
-    position: relative;
-    left: -400px;
-   top: 900px;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
-._2 {
-    width: 1772px;
-    height: 660px;
-    position: static;
+/* Layout sezioni */
+._2, ._3, .sezione-2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
 
-.group-39531 {
-    width: 551px;
-    height: 391px;
-    position: static;
-}
+._2 { flex-direction: row; }
+._3 { flex-direction: row-reverse; }
+.sezione-2 { flex-direction: row; }
 
-.fauna-emblematica {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
-    font-weight: 600;
-    position: absolute;
-    left: 574px;
-    top: 1015px;
-    width: 514px;
+/* Contenitori testo */
+.group-39531,
+.frame-152,
+.sezione-2 .vulcano-container {
+    flex: 1 1 50%;
+    max-width: 600px;
 }
-
-.fauna-alpina {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 17.921348571777344px;
-    line-height: 129%;
-    font-weight: 400;
-    position: absolute;
-    left: 574px;
-    top: 1199px;
-    width: 551px;
-}
-
-.rectangle-681 {
-    width: 568px;
-    height: 660px;
-    position: absolute;
-    left: 1204px;
-    top: 880px;
-    object-fit: cover;
-}
-
-.frame-15 {
-    width: 575px;
-    height: 140px;
-    position: absolute;
-    left: 0px;
-    top: 925px;
-}
-
-._3 {
-    width: 1261px;
-    height: 660px;
-    position: static;
-}
-
-.frame-152 {
-    width: 575px;
-    height: 140px;
-    position: absolute;
-    left: 1260px;
-    top: 1810px;
-}
-
-.group-39535 {
-    position: absolute;
-    inset: 0;
-}
-
-.un-patrimonio {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-SemiBold', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
-    font-weight: 600;
-    position: absolute;
-    left: -56px;
-    top: 7px;
-    width: 514px;
-}
-
-.camoscio-alpino {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 17.921348571777344px;
-    line-height: 129%;
-    font-weight: 400;
-    position: absolute;
-    left: -56px;
-    top: 191px;
-    width: 551px;
-}
-
-.rectangle-6812 {
-    width: 568px;
-    height: 660px;
-    position: absolute;
-    left: 574px;
-    top: 1682px;
-    object-fit: cover;
-}
-
-.sezione-2 {
-    width: 1198px;
-    height: 660px;
-    position: static;
-}
-
+/* Titoli */
+.fauna-emblematica,
+.un-patrimonio,
 .paesaggi {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-SemiBold', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
+    font-size: 2rem;
     font-weight: 600;
-    position: absolute;
-    left: 1204px;
-    top: 110px;
-    width: 514px;
+    color: #1a1a1a;
+    margin-bottom: 25px;        /* leggermente più spazio sotto il titolo */
+    line-height: 1.6;           /* aumenta il respiro verticale tra le righe del titolo */
+    letter-spacing: 0.8px;      /* migliora leggibilità */
 }
 
-.ghiacciai-granparadiso {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 17.921348571777344px;
-    line-height: 129%;
-    font-weight: 400;
-    position: absolute;
-    left: 1204px;
-    top: 294px;
-    width: 551px;
+/* Testo descrizione */
+.biodiversità,
+.pino-loricato,
+.montagne-parcoPollino,
+.borghi,
+.vulcano {
+    font-size: 1.05rem;
+    line-height: 2.4;           /* più spazio verticale tra le righe */
+    color: #333;                /* contrasto migliore con lo sfondo */
+    text-align: justify;
+    max-width: 600px;
+    letter-spacing: 0.5px;      /* respiro tra lettere */
+    word-spacing: 0.08em;       /* respiro tra parole */
+    text-align-last: left;      /* ultima riga allineata a sinistra */
+}
+
+
+/* Immagini */
+.rectangle-681,
+.rectangle-6812,
+.rectangle-6813 {
+    flex: 1 1 45%;
+    max-width: 500px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rectangle-681:hover,
+.rectangle-6812:hover,
+.rectangle-6813:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* Responsive Tablet */
+@media (max-width: 992px) {
+    ._2, ._3, .sezione-2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .group-39531,
+    .frame-152,
+    .sezione-2 .vulcano-container {
+        max-width: 100%;
+    }
+
+    .fauna-emblematica,
+    .un-patrimonio,
+    .paesaggi {
+        font-size: 1.6rem;
+    }
+
+    .biodiversità,
+    .pino-loricato,
+    .montagne-parcoPollino,
+    .borghi,
+    .vulcano {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .rectangle-681,
+    .rectangle-6812,
+    .rectangle-6813 {
+        max-width: 100%;
+    }
+}
+
+/* Responsive Mobile */
+@media (max-width: 600px) {
+    .parte-1 { gap: 60px; margin: 50px auto; }
+
+    .fauna-emblematica,
+    .un-patrimonio,
+    .paesaggi {
+        font-size: 1.4rem;
+    }
+
+    .biodiversità,
+    .pino-loricato,
+    .montagne-parcoPollino,
+    .borghi,
+    .vulcano {
+        font-size: 0.95rem;
+    }
+}
+
+
+
+/* --- SEZIONE 2 PAESAGGI CENTRATA --- */
+.sezione-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centra orizzontalmente */
+    gap: 50px;
+    max-width: 1200px;
+    margin: 150px auto 100px auto; /* margine alto per abbassarla */
+    flex-wrap: wrap;
+    position: relative; /* in caso servano posizionamenti futuri */
+    margin-top: 160px;
+}
+
+.sezione-2__text {
+    flex: 1 1 50%;
+    max-width: 600px;
+}
+
+.sezione-2__text .paesaggi {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.sezione-2__text .ghiacciai-granparadiso {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #444;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.sezione-2__image {
+    flex: 1 1 45%;
+    max-width: 500px;
 }
 
 .rectangle-6813 {
-    width: 568px;
-    height: 660px;
-    position: absolute;
-    left: 557px;
-    top: 74px;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.line-2 {
-    margin-top: -1px;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 1px 0 0 0;
-    width: 1135px;
-    height: 0px;
-    position: absolute;
-    left: 774px;
-    top: 0px;
+.rectangle-6813:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* Responsive Tablet */
+@media (max-width: 992px) {
+    .sezione-2 {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 120px; /* leggermente meno */
+    }
+
+    .sezione-2__text,
+    .sezione-2__image {
+        max-width: 100%;
+    }
+
+    .sezione-2__text .paesaggi {
+        font-size: 1.6rem;
+    }
+
+    .sezione-2__text .ghiacciai-granparadiso {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
+
+/* Responsive Mobile */
+@media (max-width: 600px) {
+    .sezione-2 {
+        gap: 60px;
+        margin: 100px auto 50px auto; /* margine alto e basso per mobile */
+    }
+
+    .sezione-2__text .paesaggi {
+        font-size: 1.4rem;
+    }
+
+    .sezione-2__text .ghiacciai-granparadiso {
+        font-size: 0.95rem;
+    }
 }
 
 
-/* parte sezione 2-griglia */
-.section-3,
-.section-3 * {
-    box-sizing: border-box;
-}
 
-.section-3 {
-    height: 1075px;
-    position: relative;
-}
 
-.group-39532 {
-    width: 1449px;
-    height: 538px;
-    position: static;
-}
-
-.rectangle-677 {
-    width: 900px;
-    height: 538px;
-    position: absolute;
-    left: calc(50% - 724.5px);
-    top: 0px;
-    object-fit: cover;
-}
-
-.rectangle-678 {
-    width: 464px;
-    height: 252px;
-    position: absolute;
-    left: 990px;
-    top: 0px;
-    object-fit: cover;
-}
-
-.rectangle-6782 {
-    width: 464px;
-    height: 252px;
-    position: absolute;
-    left: 985px;
-    top: 286px;
-    object-fit: cover;
-}
-
-.group-39534 {
-    width: 1164.93px;
-    height: 413px;
-    position: static;
-}
-
-.group-39533 {
-    width: 1164.93px;
-    height: 413px;
-    position: static;
-}
-
+/* Titolo attività */
 .attivit-per-i-visitatori {
-    color: #000000;
-    text-align: left;
+    color: #111111;                       
+    text-align: center;                    
     font-family: 'Poppins-SemiBold', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
+    font-size: 2rem;                       
+    line-height: 1.2;                      
     font-weight: 600;
-    position: absolute;
-    left: 70px;
-    top: 662px;
-    width: 577px;
+    position: relative;                    
+    margin: 60px auto 40px auto;           /* margine superiore aumentato per abbassare il titolo */
+    width: fit-content; 
+    margin-top: 200px;                    
 }
 
+/* Lista escursioni / descrizione */
 .frame-9 {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
+    gap: 25px;                             
+    align-items: center;                    
     justify-content: flex-start;
-    width: 1164.93px;
-    position: absolute;
-    left: 70px;
-    top: 789px;
+    width: 100%;                             
+    margin: 20px auto 0 auto;              /* margine superiore per abbassare il contenuto */
+    position: relative;                     
+    top: 0;
 }
+
 .escursioni {
-    color: #000000;
-    text-align: left;
+    color: #333333;                        
+    text-align: center;                     
     font-family: 'Poppins-Regular', sans-serif;
-    font-size: 2px;
-    line-height: 129%;
+    font-size: 1.1rem;                      
+    line-height: 1.6;                       
     font-weight: 400;
-    position: relative;
-    width: 1033px;
+    max-width: 900px;                       
+    margin: 0 auto;                         
 }
 
-
-/* parte sezione 3 */
-
-.text,
-.text * {
-    box-sizing: border-box;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-}
-
-.group-39538 {
-    flex-shrink: 0;
-    width: 507px;
-    height: 414px;
-    position: static;
-}
-
-.conservazione-e-sostenibilit {
-    color: #000000;
-    text-align: left;
-    font-family: 'Poppins-SemiBold', sans-serif;
-    font-size: 50px;
-    line-height: 114%;
-    font-weight: 600;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 470px;
-}
-
+/* --- PARTE SEZIONE 3 - CONSERVATION SECTION --- */
 .conservation-section {
-    font-family:
-      Poppins,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-  }
-  
-  .conservation-layout {
-    gap: 20px;
+    font-family: 'Poppins', sans-serif;
     display: flex;
-  }
-  
-  .image-column {
+    justify-content: center;
+    padding: 100px 20px;
+    background-color: #f9f9f9; /* leggero sfondo per contrasto */
+}
+
+.conservation-layout {
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    line-height: normal;
-    width: 50%;
-    margin-left: 0px;
-  }
-  
-  .conservation-image {
-    aspect-ratio: 0.86;
-    object-fit: contain;
-    object-position: center;
+    flex-direction: row;
+    gap: 60px;
+    max-width: 1200px;
     width: 100%;
-    flex-grow: 1;
-    position: relative;
-    top: 128px;
-  }
-  
-  .content-column {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    line-height: normal;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.image-column {
     width: 50%;
-    margin-left: 20px;
-  }
-  
-  .content-wrapper {
-    z-index: 10;
     display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
+    justify-content: center;
+}
+
+.conservation-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.conservation-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+.content-column {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.content-wrapper {
+    display: flex;
     flex-direction: column;
-    align-self: stretch;
-    align-items: stretch;
-    color: #000000;
-  }
-  
-  .section-title {
-    font-size: 50px;
+    gap: 20px;
+}
+
+.section-title {
+    font-size: 2.5rem;
     font-weight: 600;
-    line-height: 57px;
-    align-self: start;
+    line-height: 1.3;
+    color: #1a1a1a;
     margin: 0;
-    position: relative;
-    top: 98px;
- right: 90px;
-  }
-  
-  .section-description {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 70px;
-    margin: 70px 0 0 0;
-    position: relative;
-    top: 128px;
- right: 90px;
-  }
-  
-  @media (max-width: 991px) {
+    letter-spacing: 0.5px;
+}
+
+.section-description {
+    font-size: 1.05rem;
+    line-height: 2;
+    color: #444;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    word-spacing: 0.05em;
+    margin: 0;
+}
+
+/* Responsive Tablet */
+@media (max-width: 992px) {
     .conservation-layout {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
+        flex-direction: column;
+        gap: 40px;
     }
-  
-    .image-column {
-      width: 100%;
-    }
-  
-    .conservation-image {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  
+
+    .image-column,
     .content-column {
-      width: 100%;
+        width: 100%;
+        text-align: center;
     }
-  
-    .content-wrapper {
-      max-width: 100%;
-      margin-top: 40px;
-      margin-right: -13px;
-    }
-  
+
     .section-title {
-      font-size: 40px;
-      line-height: 51px;
+        font-size: 2rem;
     }
-  
+
     .section-description {
-      max-width: 100%;
-      margin-top: 40px;
+        font-size: 1rem;
+        line-height: 1.8;
     }
+
+    .conservation-image {
+        max-width: 100%;
+    }
+}
+
+/* Responsive Mobile */
+@media (max-width: 600px) {
+    .section-title {
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+
+    .section-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+/* SEZIONE GRAN PARADISO VISIT */
+.granparadiso-visit {
+  padding: 100px 20px;
+  background-color: #f9f7f3;
+  font-family: 'Poppins', sans-serif;
+  color: #1a1a1a;
+  box-sizing: border-box;
+}
+
+.granparadiso-visit__content {
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.granparadiso-visit__title {
+  font-size: clamp(2.2rem, 5vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+.granparadiso-visit__description {
+  font-size: clamp(1rem, 2.2vw, 1.1rem);
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #444;
+  text-align: justify;
+}
+
+.granparadiso-visit__map {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.granparadiso-visit__map-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.granparadiso-visit__map-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* RESPONSIVE: tablet */
+@media (max-width: 991px) {
+  .granparadiso-visit__title {
+    font-size: 2rem;
   }
+
+  .granparadiso-visit__description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .granparadiso-visit__map-image {
+    height: 300px;
+  }
+}
+
+/* RESPONSIVE: smartphone */
+@media (max-width: 600px) {
+  .granparadiso-visit {
+    padding: 60px 15px;
+  }
+
+  .granparadiso-visit__title {
+    font-size: 1.6rem;
+  }
+
+  .granparadiso-visit__description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .granparadiso-visit__map-image {
+    height: 220px;
+  }
+}
+
+/* EXTRA SMALL */
+@media (max-width: 480px) {
+  .granparadiso-visit__title {
+    font-size: 1.4rem;
+  }
+
+  .granparadiso-visit__description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .granparadiso-visit__map-image {
+    height: 180px;
+  }
+}
+
   
 
-/* zona*/
-  .granparadiso-visit {
-    font-family:
-      Poppins,
-      -apple-system,
-      Roboto,
-      Helvetica,
-      sans-serif;
-    color: #000000;
-  }
-  
-  .granparadiso-visit__content {
-    z-index: 10;
-    display: flex;
-    margin-top: -8px;
-    margin-left: 55px;
-    width: 100%;
-    max-width: 1185px;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .granparadiso-visit__title {
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 1;
-    align-self: start;
-    margin: 0;
-    position: relative;
-    top: 400px;
-  }
-  
-  .granparadiso-visit__description {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 54px;
-    margin-bottom: 0;
-    position: relative;
-    top: 400px;
-  }
-  
-  .granparadiso-visit__map {
- 
-    margin-top: 84px;
-    height: 522px;
-    width: 100%;
-    overflow: hidden;
-   position: relative;
-   top: 290px;
-  }
-  
-  .granparadiso-visit__map-container {
-    width: 100%;
-   
-  }
-  
-  .granparadiso-visit__map-image {
-    aspect-ratio: 2.75;
-    object-fit: contain;
-    object-position: center;
-    width: 100%;
-    position: relative;
-    top: 100px;
-  }
-  
-  @media (max-width: 991px) {
-    .granparadiso-visit__content {
-      max-width: 100%;
-    }
-  
-    .granparadiso-visit__title {
-      max-width: 100%;
-      font-size: 40px;
-    }
-  
-    .granparadiso-visit__description {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  
-    .granparadiso-visit__map {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  
-    .granparadiso-visit__map-container {
-      max-width: 100%;
-    }
-  
-    .granparadiso-visit__map-image {
-      max-width: 100%;
-    }
-  }
-  
