@@ -182,7 +182,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   max-width: 650px;
-  text-align: justify;             /* testo giustificato */
+   text-align: left;            
 }
 
 /* Responsive */
@@ -271,7 +271,7 @@ body {
     font-size: 1.05rem;
     line-height: 2.4;           /* più spazio verticale tra le righe */
     color: #333;                /* contrasto migliore con lo sfondo */
-    text-align: justify;
+      text-align: left;
     max-width: 600px;
     letter-spacing: 0.5px;      /* respiro tra lettere */
     word-spacing: 0.08em;       /* respiro tra parole */
@@ -386,7 +386,7 @@ body {
     font-size: 1.05rem;
     line-height: 1.7;
     color: #444;
-    text-align: justify;
+      text-align: left;
     max-width: 600px;
 }
 
@@ -554,7 +554,7 @@ body {
     font-size: 1.05rem;
     line-height: 2;
     color: #444;
-    text-align: justify;
+      text-align: left;
     letter-spacing: 0.3px;
     word-spacing: 0.05em;
     margin: 0;
@@ -628,7 +628,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   color: #444;
-  text-align: justify;
+    text-align: left;
 }
 
 .granparadiso-visit__map {
@@ -704,4 +704,130 @@ body {
 }
 
   
+/* footer */
+.footer {
+  background: #0d1f38;
+  color: #fff;
+  padding: 60px 20px;
+  margin-top: 0px;
+}
+
+.footer .frame-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.copyright2 {
+  border-top: 1px solid #ffffff50;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #f5f5fa;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .parchi-d-italia {
+        font-size: 8vw;
+    }
+    .scopri-la- {
+        font-size: 2vw;
+    }
+    .grid-container {
+        margin-top: 15vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar a {
+        flex: 100%;
+        text-align: left;
+    }
+    .parchi-d-italia {
+        font-size: 10vw;
+        text-align: center;
+        left: 0;
+        width: 100%;
+    }
+    .scopri-la- {
+        font-size: 3vw;
+        text-align: center;
+        left: 0;
+        width: 90%;
+        margin: 0 auto;
+        top: 12vw;
+    }
+    .grid-container {
+        margin-top: 25vw;
+        grid-template-columns: 1fr;
+    }
+    .footer .frame-3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .parchi-d-italia {
+        font-size: 12vw;
+    }
+    .scopri-la- {
+        font-size: 4vw;
+        top: 15vw;
+    }
+    .grid-container {
+        margin-top: 30vw;
+    }
+}
+
+/* Container dei social media */
+.social-media-container {
+  display: flex;
+  gap: 16px; /* Spazio tra le icone */
+  align-items: center; /* Allinea verticalmente */
+  margin-top: 10px;
+}
+
+/* Dimensione uniforme per le icone SVG */
+.social-media-container svg {
+  width: 24px; /* Larghezza standard */
+  height: 24px; /* Altezza standard */
+  cursor: pointer;
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+/* Effetto hover */
+.social-media-container svg:hover {
+  transform: scale(1.1);
+  fill: #1DA1F2; /* Cambia colore al passaggio del mouse, puoi adattare per ogni social */
+}
 
